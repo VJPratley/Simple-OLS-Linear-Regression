@@ -6,9 +6,12 @@ Simple OLS Linear Regression is a Python package for performing Ordinary Least S
 
 ## Installation
 In the command line, type
-``` pip install git+https://github.com/VJPratley/Simple-OLS-Linear-Regression.git```
+```bash
+pip install git+https://github.com/VJPratley/Simple-OLS-Linear-Regression.git```
 
-## Usage
+## Example Usage
+
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
