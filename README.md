@@ -22,7 +22,7 @@ from OLS_Regression import ols_linear_regression
 data = {
     'Feature1': [1, 2, 3, 4, 5],
     'Feature2': [6, 3, 4, 5, 10],
-    'Target': [13.14990385134946, 8.127537733933618, 11.240323459184067, 14.171663207243501, 25.117915262039194]
+    'Target': [13.149, 8.127, 11.240, 14.171, 25.117]
 }
 df = pd.DataFrame(data)
 
