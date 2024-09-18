@@ -1,4 +1,4 @@
-# Simple OLS Linear Regression
+# Simple OLS Regression
 
 ## Overview
 
