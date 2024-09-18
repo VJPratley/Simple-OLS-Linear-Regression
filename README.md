@@ -12,6 +12,23 @@ pip install git+https://github.com/VJPratley/Simple-OLS-Linear-Regression.git
 
 ## Example Usage
 
+```python
+import pandas as pd
+from OLS_Regression import ols_linear_regression
+
+# Example DataFrame
+data = {
+    'Feature1': [1, 2, 3, 4, 5],
+    'Feature2': [6, 3, 4, 5, 10],
+    'Target': [13.14990385134946, 8.127537733933618, 11.240323459184067, 14.171663207243501, 25.117915262039194]
+}
+df = pd.DataFrame(data)
+
+# Perform OLS linear regression
+result = ols_linear_regression(df, target='Target', features=['Feature1', 'Feature2'])
+
+print(result)
+
 
 
 ## License
