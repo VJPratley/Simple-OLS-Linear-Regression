@@ -9,7 +9,7 @@ Pandas and NumPy are needed to run use this package.
 ## Installation
 In the command line, type
 ```bash
-pip install git+https://github.com/VJPratley/Simple-OLS-Linear-Regression.git
+pip install git+https://github.com/VJPratley/Simple-OLS-Regression.git
 ```
 
 ## Example Usage
