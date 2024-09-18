@@ -28,6 +28,7 @@ df = pd.DataFrame(data)
 result = ols_linear_regression(df, 'Target', ['Feature1', 'Feature2'])
 
 print(result)
+```
 
 
 
