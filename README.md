@@ -25,7 +25,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Perform OLS linear regression
-result = ols_linear_regression(df, target='Target', features=['Feature1', 'Feature2'])
+result = ols_linear_regression(df, 'Target', ['Feature1', 'Feature2'])
 
 print(result)
 
